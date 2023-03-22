@@ -1,0 +1,148 @@
+body{
+  font-family: "Montserrat-black;"
+}
+
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+
+
+}
+h1{
+  font-family:"Montserrat";
+
+  font-size: 4rem;
+  line-height: 1.5;
+  padding-bottom: 3rem;
+
+
+}
+.container-fluid{
+  padding:3% 15%;
+}
+
+.navbar{
+  padding-bottom:  4.5rem;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "ubuntu";
+  font-weight: bold;
+  padding-left: 12px;
+
+}
+.nav-item{
+  padding :18px 18px;
+}
+.nav-link{
+ font-family: "Merriweather";
+ font-size:1.2rem;
+
+}
+.download-button{
+  margin: 0% 4% 0 0;
+
+}
+.title-img{
+
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+#features{
+  background-color: white;
+  padding :7% 15%;
+  position: relative;
+  z-index: 1;
+
+}
+h3{
+font-family:"Montserrat";
+font-weight: bold;
+font-style: 2rem;
+
+}
+p{
+  color:#8f8f8f;
+}
+
+.feature-box{
+  text-align: center;
+  padding:5%;
+
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+
+}
+.icon:hover{
+  color:#ff4c68;
+}
+#testimonial{
+
+  padding: 10% 10%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+
+
+}
+h2{
+
+font-family:"Montserrat";
+font-size: 2.01rem;
+line-height: 2;
+
+
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+.testimonial-text{
+  font-family:"Montserrat";
+  font-size: 2.01rem;
+  line-height: 2;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+
+}
+.pricing-column{
+  padding:3% 2%;
+
+}
+
+@media (max-width:1028px)
+{
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  text-align: center;
+  padding: 100px;
+  background-color: #ff4c68;
+
+}
+#footer{
+  text-align: center;
+  padding: 100px;
+  background-color: white;
+}
+.cta-text{
+    color: white;
+}
+.social-icon{
+
+  padding: 15px;
+}
